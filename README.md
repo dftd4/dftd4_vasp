@@ -14,6 +14,18 @@ Extend your PATH by the build directory and be sure the share library is availab
 Modify your makefile.include
 
 ```bash
+# Precompiler options
+CPP_OPTIONS= -DHOST=\"LinuxIFC\"\
+             -DMPI -DMPI_BLOCK=8000 \
+             -Duse_collective \
+             -DscaLAPACK \
+             -DCACHE_SIZE=4000 \
+             -Davoidalloc \
+             -Duse_bse_te \
+             -Dvasp6 \
+             -Dtbdyn \
+             -DWITH_DFTD4
+# dftd4 path
 DFTD4_PATH =/path/to/staging/area/install/usr/local
 DFTD4      =-ldftd4 -L${DFTD4_PATH}/lib64/
 
