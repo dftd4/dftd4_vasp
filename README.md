@@ -37,7 +37,7 @@ Within the "vdw_read" subroutine, add the *dftd4* case (IVDW=13).
 After processing the *INCAR* file this can easily be added:
 
 ```fortran
-IF (IVDW==1 .OR. IVDW==2 .OR. IVDW==3 .OR. IVDW==4 .OR. (IVDW>=10 .AND. **IVDW<=13**) .OR.  &
+IF (IVDW==1 .OR. IVDW==2 .OR. IVDW==3 .OR. IVDW==4 .OR. (IVDW>=10 .AND. IVDW<=13) .OR.  &
 &   IVDW==101 .OR. (IVDW>=20 .AND. IVDW<=22) .OR. IVDW==26 .OR.  IVDW==202 &
 &   .OR. IVDW==212 .OR. IVDW==263 .OR. IVDW==612  ) THEN
   LVDW=.TRUE.
