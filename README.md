@@ -59,3 +59,5 @@ ELSE
   IF (LVDW) IVDW=1
 ENDIF
 ``` 
+This implementation is tested for *VASP 6.0.X* versions. For earlier *VASP* versions take care of the vtutor module,
+which is used within the subdftd4.F file.
