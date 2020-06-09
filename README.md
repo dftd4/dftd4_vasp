@@ -9,7 +9,7 @@ mkdir install
 DESTDIR=/path/to/staging/area/install ninja -C build install
 ```
 
-Extend your PATH by the build directory and be sure the share library is available for linking purposes.
+Extend your PATH by the build directory and be sure the shared library is available for linking purposes.
 
 Modify your makefile.include
 
