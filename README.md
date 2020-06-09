@@ -1,6 +1,6 @@
 # Setup *dftd4* for the *VASP* quantum chemistry code
 
-Get your copy of the *dftd4*  code and install the code to obtain a shared library.
+[Get your copy](https://github.com/dftd4/dftd4) of the *dftd4*  code and install the code to obtain a shared library.
 Tested using *ifort* (18.0.2).
 
 ```bash
