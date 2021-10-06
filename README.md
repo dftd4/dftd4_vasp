@@ -1,4 +1,10 @@
-# Setup *dftd4* for the *VASP* quantum chemistry code
+# This project is deprecated
+
+You can find instructions to build Vasp with support for DFT-D4 in the main repository at [dftd4/dftd4](https://github.com/dftd4/dftd4).
+Follow the instructions in the [README](https://github.com/dftd4/dftd4#building-vasp-with-support-for-d4) to build `dftd4` and make it available in Vasp.
+
+
+## Setup *dftd4* for the *VASP* quantum chemistry code
 
 [Get your copy](https://github.com/dftd4/dftd4) of the *dftd4*  code and install the code to obtain a shared library.
 Tested using *ifort* (18.0.2).
